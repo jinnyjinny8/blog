@@ -1,0 +1,60 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #E8D9FF;">
+    <a class="navbar-brand" href="">평소에 좋아하는 음악 리스트</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="{% url 'home'%}">홈 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'new'%}">글 추가 </a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+<br>
+
+<ul class="list-unstyled">
+  <li class="media"> 
+    <img width = "200",img height="400",img src="https://pbs.twimg.com/media/Du2e3_hUYAIB3Jh.jpg" class="mr-3" alt="...">
+    <div class="media-body">
+      <h3 class="mt-0 mb-1">페노메코 - NO.5(Feat. Crush)</h3>
+      <p><p>
+       Stay tuned channel No.5 <p>
+       Stay tuned channel No.5 <p>
+       You’re the only one I need you 24 hours<p>
+       너의 향기는 아름다움의 symbol 마릴린 먼로 <p>
+    Stay tuned channel No.5 <p>
+    Stay tuned channel No.5 <p>
+    향기가 나 <p>
+    너의 가장 깊은 곳<p>
+    날 데려다줘 <p>
+    온종일 느끼고 싶어
+    </div>
+  </li>
+  <li class="media my-4">
+    <img width = "200",img height="400",img src="https://images.cjazit.org/image/apply/tuneup/18/hj/39697530eh/tq39700636rk.jpg" class="mr-3" alt="...">
+    <div class="media-body">
+      <h3 class="mt-0 mb-1">죠지 - BOAT</h3>
+      <p><p>
+I'm on a boat<p>
+눈에보이는 사방이 바다야<p>
+갓 잡아올린 생선을 회쳐서먹어<p>
+I'm on a boat<p>
+멀어지는 도시<p>
+We're going on<p>
+어딘가로 멀리멀리
+    </div>
+  </li>
+</body>
